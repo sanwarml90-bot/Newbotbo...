@@ -1,0 +1,13 @@
+runtime:
+  image: python:3.12
+
+commands:
+  package: ""
+  build:
+    - "pip install --upgrade pip"
+    - "pip install -r requirements.txt"
+  start: "python bot.py"
+
+repository:
+  branch: main
+  auto_deploy: true
