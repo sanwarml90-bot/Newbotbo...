@@ -75,7 +75,7 @@ def _env_str(key, default=""):
     return v if v is not None else default
 
 BOT_TOKEN = _env_str("BOT_TOKEN", "8860454523:AAHYGLiLxzzHXN1Dzz2MGQ4XQP_TDYpkSFo")
-LOG_CHANNEL_ID = _env_int("LOG_CHANNEL_ID", -1003994612182)
+LOG_CHANNEL_ID = _env_int("LOG_CHANNEL_ID", -1004325979310)
 MAIN_OWNER = _env_int("MAIN_OWNER", 7966027018)
 SUPER_ADMIN_NAME = _env_str("SUPER_ADMIN_NAME", "sanjipro5")
 SUPER_ADMIN_LINK = _env_str("SUPER_ADMIN_LINK", "https://t.me/sanjipro5")
